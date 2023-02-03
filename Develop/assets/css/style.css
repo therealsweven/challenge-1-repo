@@ -8,7 +8,8 @@ body {
   background-color: #d9dcd6;
 }
 
-.header {
+header {
+  display: flex;
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -16,30 +17,28 @@ body {
   color: #ffffff;
 }
 
-.header h1 {
-  display: inline-block;
+h1 {
   font-size: 48px;
 }
 
-.header h1 .seo {
+h1 .seo {
   color: #d9dcd6;
 }
-
-.header div {
+/* Navbar styling with flexbox  */
+nav {
   padding-top: 15px;
-  margin-right: 20px;
-  float: right;
+  display: flex;
+  width: 100%;
+  justify-content: end;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
 }
-
-.header div ul {
-  list-style-type: none;
-}
-
-.header div ul li {
-  display: inline-block;
-  margin-left: 25px;
+/* Class for navbar options */
+nav .opt {
+  font-size: 20px;
+  margin-left: 2.5%;
 }
 
 a {
