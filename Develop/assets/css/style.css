@@ -9,7 +9,8 @@ body {
   background-color: #d9dcd6;
 }
 
-/* Style header colors, font, and padding*/
+/* Style header colors, font, and padding
+Changed first div to header and updated css to match*/
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -28,7 +29,8 @@ header h1 .seo {
   color: #d9dcd6;
 }
 
-/* Nav-bar font, positiong, and padding/margin set */
+/* Nav-bar font, positiong, and padding/margin set 
+Changed div to nav, removed the list, and updated css to match*/
 nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -50,7 +52,7 @@ p {
   font-size: 16px;
 }
 
-/* Formatting  */
+/* Formatting main big image on the site */
 .hero {
   height: 800px;
   width: 100%;
@@ -60,22 +62,24 @@ p {
   background-position: center;
 }
 
+/* Defining float classes to position the images in the content section */
 .float-left {
   float: left;
   margin-right: 25px;
 }
-
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* Defines class to format the content section on the right */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* Defines class to format the benefit section on the right */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -87,10 +91,13 @@ p {
   background-color: #2589bd;
 }
 
+/* Combined the three benefit classes into one css class  */
 .benefit-card {
   margin-bottom: 32px;
   color: #ffffff;
 }
+
+/* Combined the three benefit classes defining the h3 font into one css class  */
 .benefit-card h3 {
   text-align: center;
 }
@@ -101,6 +108,7 @@ p {
   max-width: 150px;
 }
 
+/* Defined 1 class to combine the three different content classes and style same as before */
 .content-card {
   margin-bottom: 20px;
   padding: 50px;
@@ -109,17 +117,19 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
-
+/* Define max-image size for content card images */
 .content-card img {
   max-height: 200px;
 }
 
+/* Define font size for content card headers */
 .content-card h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-.footer {
+/* Change footer class to a semantic html element named footer and updated css to match */
+footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -127,6 +137,6 @@ p {
   text-align: center;
 }
 
-.footer h2 {
+footer h2 {
   font-size: 20px;
 }
