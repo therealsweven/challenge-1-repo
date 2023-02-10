@@ -4,6 +4,10 @@
 
 A marketing firm desired a codebase that follows accessibility standards so tht their site is optimized for search engines. The old code ws refractored by replacing original html elements with semantic elements where applicable and condensing the CSS classes and elements to make the code easier to ammend in the future. Kept the original block structure as we were told students have been docked in the past for improving functionality by adding flex boxes, although that's what I would have done to make the site more current and adaptable to different devices.
 
+![Screenshot](Screenshot.png)
+
+URL:https://therealsweven.github.io/challenge-1-repo/
+
 ## Installation
 
 N/A
